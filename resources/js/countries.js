@@ -208,9 +208,9 @@ let country_list = [
 //SELECT COUNTIES//
 const search_country_element = document.querySelector(".search-country");
 const country_list_element = document.querySelector(".country-list");
-const chang_country_btn = document.querySelector("change-country");
+const chang_country_btn = document.querySelector(".change-country");
 const close_list_btn = document.querySelector(".close");
-const input = document.getElementById('.search-input')
+const input = document.getElementById('search-input')
  
 // Create TE country list//
 function createCountryList(){
